@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.project1singleappscreen.MainActivity">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sunset" />
+
+        <ImageView
+            android:id="@+id/logo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:background="#FFFFFF"
+            android:alpha="0.85"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="Aromatic, colourful, flavoursome and healthy – Laraba Catering’s traditional Nigerian food brings the authentic tastes of West Africa straight to your table. Catering for corporate events, family parties and busy homes, Laraba provides that ‘something really different’ eating experience you’ve been yearning for!!!"
+            android:layout_below="@+id/logo_image_view"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:padding="12dp"
+            android:text="Website: www.laraba.co.uk\nEmail: info@laraba.co.uk"
+            android:layout_below="@+id/textView"
+            android:id="@+id/textView2"
+            />
+
+    </RelativeLayout>
+</ScrollView>
